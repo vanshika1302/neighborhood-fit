@@ -1,0 +1,390 @@
+[
+ {
+  "budget": 3000,
+  "max_commute": 30,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55,
+    "score": 0.7083,
+    "why": "$752 under budget, 19 min to Downtown"
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9,
+    "score": 0.7023,
+    "why": "$495 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.2333,
+    "why": "$82 under budget, 13 min to Downtown"
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.2333,
+    "why": "$82 under budget, 13 min to Downtown"
+   }
+  ]
+ },
+ {
+  "budget": 4000,
+  "max_commute": 45,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": [
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9,
+    "score": 0.8495,
+    "why": "$1,495 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55,
+    "score": 0.7906,
+    "why": "$1,752 under budget, 19 min to Downtown"
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.5893,
+    "why": "$1,082 under budget, 13 min to Downtown"
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.5893,
+    "why": "$1,082 under budget, 13 min to Downtown"
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7,
+    "score": 0.1767,
+    "why": "$75 under budget, 33 min to Downtown"
+   }
+  ]
+ },
+ {
+  "budget": 2600,
+  "max_commute": 20,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55,
+    "score": 0.585,
+    "why": "$352 under budget, 19 min to Downtown"
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9,
+    "score": 0.346,
+    "why": "$95 under budget, 7 min to Downtown"
+   }
+  ]
+ },
+ {
+  "budget": 2300,
+  "max_commute": 10,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": []
+ },
+ {
+  "budget": 9000,
+  "max_commute": 5,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": []
+ },
+ {
+  "budget": 3000,
+  "max_commute": 12.5,
+  "hub_name": "Downtown",
+  "rows": [
+   {
+    "neighborhood_id": "a",
+    "name": "Alpha",
+    "rent": 2248.4,
+    "minutes": 18.5,
+    "nice": 0.55
+   },
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9
+   },
+   {
+    "neighborhood_id": "c",
+    "name": "Charlie",
+    "rent": 3925.0,
+    "minutes": 33.0,
+    "nice": 0.7
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0
+   }
+  ],
+  "expected": [
+   {
+    "neighborhood_id": "b",
+    "name": "Bravo",
+    "rent": 2505.0,
+    "minutes": 7.2,
+    "nice": 0.9,
+    "score": 0.7596,
+    "why": "$495 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "d",
+    "name": "Delta",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.0,
+    "why": "$82 under budget, 13 min to Downtown"
+   },
+   {
+    "neighborhood_id": "e",
+    "name": "Echo",
+    "rent": 2917.6,
+    "minutes": 12.5,
+    "nice": 0.0,
+    "score": 0.0,
+    "why": "$82 under budget, 13 min to Downtown"
+   }
+  ]
+ }
+]

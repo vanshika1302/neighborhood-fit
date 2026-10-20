@@ -1,0 +1,15 @@
+neighborhood_id,name,zip,lat,lon,walkability,beach,nightlife
+downtown,Downtown,92101,32.7157,-117.1611,0.95,0.3,0.9
+hillcrest,Hillcrest,92103,32.7480,-117.1650,0.85,0.1,0.8
+north_park,North Park,92104,32.7410,-117.1300,0.85,0.1,0.85
+city_heights,City Heights,92105,32.7440,-117.0960,0.6,0.0,0.3
+point_loma,Point Loma,92106,32.7280,-117.2330,0.5,0.7,0.4
+ocean_beach,Ocean Beach,92107,32.7490,-117.2490,0.7,0.95,0.6
+mission_valley,Mission Valley,92108,32.7700,-117.1500,0.4,0.0,0.4
+pacific_beach,Pacific Beach,92109,32.7970,-117.2550,0.7,1.0,0.85
+clairemont,Clairemont,92117,32.8160,-117.1960,0.3,0.4,0.2
+university_city,University City,92122,32.8590,-117.2120,0.4,0.4,0.3
+mira_mesa,Mira Mesa,92126,32.9150,-117.1440,0.3,0.0,0.2
+rancho_penasquitos,Rancho Penasquitos,92129,32.9640,-117.1200,0.25,0.0,0.15
+scripps_ranch,Scripps Ranch,92131,32.9170,-117.0900,0.2,0.0,0.1
+la_jolla,La Jolla,92037,32.8328,-117.2713,0.65,0.9,0.6
