@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neighborhood Fit · San Diego</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Neighborhood Fit</h1>
+    <p class="sub">San Diego neighborhoods that fit your rent budget and commute.</p>
+  </header>
+
+  <div id="sample-banner" class="banner" hidden>
+    Sample data: rents are real Zillow ZORI, but commute times are placeholder estimates.
+  </div>
+
+  <section class="controls" aria-label="Your limits">
+    <label>Monthly rent budget
+      <output id="budget-out"></output>
+      <input id="budget" type="range" min="1800" max="4500" step="50" value="3000">
+    </label>
+    <label>Max commute
+      <output id="commute-out"></output>
+      <input id="commute" type="range" min="5" max="60" step="1" value="30">
+    </label>
+    <label>Commute to
+      <select id="hub"></select>
+    </label>
+  </section>
+
+  <p id="summary" class="summary" aria-live="polite"></p>
+  <ol id="results" class="results"></ol>
+
+  <footer>
+    <p>Rent: <a href="https://www.zillow.com/research/data/">Zillow Observed Rent Index</a> by ZIP, as of <span id="as-of">…</span>.
+    Commute: typical driving time, not rush hour. Fit is <em>relative</em> to the neighborhoods that pass your limits
+    (rent headroom 50%, commute 40%, walkability/beach/nightlife 10%).</p>
+  </footer>
+</main>
+<script src="score.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

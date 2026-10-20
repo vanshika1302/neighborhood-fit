@@ -1,0 +1,275 @@
+{
+ "hubs": [
+  {
+   "hub_id": "downtown",
+   "name": "Downtown San Diego"
+  },
+  {
+   "hub_id": "kearny_mesa",
+   "name": "Kearny Mesa"
+  },
+  {
+   "hub_id": "sorrento_valley",
+   "name": "Sorrento Valley"
+  },
+  {
+   "hub_id": "utc",
+   "name": "UTC / La Jolla Village"
+  }
+ ],
+ "neighborhoods": [
+  {
+   "neighborhood_id": "city_heights",
+   "name": "City Heights",
+   "zip": "92105",
+   "walkability": 0.6,
+   "beach": 0.0,
+   "nightlife": 0.3,
+   "rent": 2247.5135802469135,
+   "yoy_pct": 1.4,
+   "as_of": "2026-09-30",
+   "nice": 0.3,
+   "minutes": {
+    "downtown": 18.0,
+    "utc": 39.0,
+    "kearny_mesa": 23.6,
+    "sorrento_valley": 43.2
+   }
+  },
+  {
+   "neighborhood_id": "clairemont",
+   "name": "Clairemont",
+   "zip": "92117",
+   "walkability": 0.3,
+   "beach": 0.4,
+   "nightlife": 0.2,
+   "rent": 2716.49797979798,
+   "yoy_pct": 2.0,
+   "as_of": "2026-09-30",
+   "nice": 0.3,
+   "minutes": {
+    "downtown": 27.1,
+    "utc": 17.0,
+    "kearny_mesa": 14.7,
+    "sorrento_valley": 22.8
+   }
+  },
+  {
+   "neighborhood_id": "downtown",
+   "name": "Downtown",
+   "zip": "92101",
+   "walkability": 0.95,
+   "beach": 0.3,
+   "nightlife": 0.9,
+   "rent": 2916.8129105404028,
+   "yoy_pct": 1.5,
+   "as_of": "2026-09-30",
+   "nice": 0.7167,
+   "minutes": {
+    "downtown": 5.0,
+    "utc": 39.1,
+    "kearny_mesa": 27.9,
+    "sorrento_valley": 44.7
+   }
+  },
+  {
+   "neighborhood_id": "hillcrest",
+   "name": "Hillcrest",
+   "zip": "92103",
+   "walkability": 0.85,
+   "beach": 0.1,
+   "nightlife": 0.8,
+   "rent": 2763.521629945511,
+   "yoy_pct": 1.5,
+   "as_of": "2026-09-30",
+   "nice": 0.5833,
+   "minutes": {
+    "downtown": 11.9,
+    "utc": 32.4,
+    "kearny_mesa": 21.4,
+    "sorrento_valley": 37.9
+   }
+  },
+  {
+   "neighborhood_id": "la_jolla",
+   "name": "La Jolla",
+   "zip": "92037",
+   "walkability": 0.65,
+   "beach": 0.9,
+   "nightlife": 0.6,
+   "rent": 3924.861364871183,
+   "yoy_pct": 4.5,
+   "as_of": "2026-09-30",
+   "nice": 0.7167,
+   "minutes": {
+    "downtown": 36.5,
+    "utc": 17.9,
+    "kearny_mesa": 28.0,
+    "sorrento_valley": 23.4
+   }
+  },
+  {
+   "neighborhood_id": "mira_mesa",
+   "name": "Mira Mesa",
+   "zip": "92126",
+   "walkability": 0.3,
+   "beach": 0.0,
+   "nightlife": 0.2,
+   "rent": 3043.684078628228,
+   "yoy_pct": 2.7,
+   "as_of": "2026-09-30",
+   "nice": 0.1667,
+   "minutes": {
+    "downtown": 47.2,
+    "utc": 20.6,
+    "kearny_mesa": 24.4,
+    "sorrento_valley": 16.3
+   }
+  },
+  {
+   "neighborhood_id": "mission_valley",
+   "name": "Mission Valley",
+   "zip": "92108",
+   "walkability": 0.4,
+   "beach": 0.0,
+   "nightlife": 0.4,
+   "rent": 3167.9689647003083,
+   "yoy_pct": 1.8,
+   "as_of": "2026-09-30",
+   "nice": 0.2667,
+   "minutes": {
+    "downtown": 16.6,
+    "utc": 29.2,
+    "kearny_mesa": 16.3,
+    "sorrento_valley": 34.1
+   }
+  },
+  {
+   "neighborhood_id": "north_park",
+   "name": "North Park",
+   "zip": "92104",
+   "walkability": 0.85,
+   "beach": 0.1,
+   "nightlife": 0.85,
+   "rent": 2505.0836310625696,
+   "yoy_pct": 1.1,
+   "as_of": "2026-09-30",
+   "nice": 0.6,
+   "minutes": {
+    "downtown": 12.7,
+    "utc": 36.2,
+    "kearny_mesa": 22.5,
+    "sorrento_valley": 41.1
+   }
+  },
+  {
+   "neighborhood_id": "ocean_beach",
+   "name": "Ocean Beach",
+   "zip": "92107",
+   "walkability": 0.7,
+   "beach": 0.95,
+   "nightlife": 0.6,
+   "rent": 2853.729091995221,
+   "yoy_pct": 2.8,
+   "as_of": "2026-09-30",
+   "nice": 0.75,
+   "minutes": {
+    "downtown": 22.1,
+    "utc": 31.4,
+    "kearny_mesa": 29.6,
+    "sorrento_valley": 37.8
+   }
+  },
+  {
+   "neighborhood_id": "pacific_beach",
+   "name": "Pacific Beach",
+   "zip": "92109",
+   "walkability": 0.7,
+   "beach": 1.0,
+   "nightlife": 0.85,
+   "rent": 3272.0141692789966,
+   "yoy_pct": 3.6,
+   "as_of": "2026-09-30",
+   "nice": 0.85,
+   "minutes": {
+    "downtown": 28.9,
+    "utc": 22.2,
+    "kearny_mesa": 25.8,
+    "sorrento_valley": 28.5
+   }
+  },
+  {
+   "neighborhood_id": "point_loma",
+   "name": "Point Loma",
+   "zip": "92106",
+   "walkability": 0.5,
+   "beach": 0.7,
+   "nightlife": 0.4,
+   "rent": 2875.0505050505053,
+   "yoy_pct": 2.8,
+   "as_of": "2026-09-30",
+   "nice": 0.5333,
+   "minutes": {
+    "downtown": 18.0,
+    "utc": 35.3,
+    "kearny_mesa": 30.8,
+    "sorrento_valley": 41.7
+   }
+  },
+  {
+   "neighborhood_id": "rancho_penasquitos",
+   "name": "Rancho Penasquitos",
+   "zip": "92129",
+   "walkability": 0.25,
+   "beach": 0.0,
+   "nightlife": 0.15,
+   "rent": 3567.485688405797,
+   "yoy_pct": 3.2,
+   "as_of": "2026-09-30",
+   "nice": 0.1333,
+   "minutes": {
+    "downtown": 58.0,
+    "utc": 30.9,
+    "kearny_mesa": 35.0,
+    "sorrento_valley": 25.2
+   }
+  },
+  {
+   "neighborhood_id": "scripps_ranch",
+   "name": "Scripps Ranch",
+   "zip": "92131",
+   "walkability": 0.2,
+   "beach": 0.0,
+   "nightlife": 0.1,
+   "rent": 3589.0136554621845,
+   "yoy_pct": 2.2,
+   "as_of": "2026-09-30",
+   "nice": 0.1,
+   "minutes": {
+    "downtown": 49.4,
+    "utc": 29.2,
+    "kearny_mesa": 26.9,
+    "sorrento_valley": 25.7
+   }
+  },
+  {
+   "neighborhood_id": "university_city",
+   "name": "University City",
+   "zip": "92122",
+   "walkability": 0.4,
+   "beach": 0.4,
+   "nightlife": 0.3,
+   "rent": 3284.6246464307674,
+   "yoy_pct": 3.7,
+   "as_of": "2026-09-30",
+   "nice": 0.3667,
+   "minutes": {
+    "downtown": 36.6,
+    "utc": 7.5,
+    "kearny_mesa": 19.6,
+    "sorrento_valley": 13.8
+   }
+  }
+ ],
+ "sample": true
+}
