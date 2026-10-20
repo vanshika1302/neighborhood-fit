@@ -18,6 +18,11 @@ def _round_half_up(x: float) -> int:
     return math.floor(x + 0.5)
 
 
+def _fmt_minutes(minutes: float) -> str:
+    m = _round_half_up(minutes)
+    return "<1" if m == 0 else str(m)
+
+
 def _clamp01(x: float) -> float:
     return max(0.0, min(1.0, x))
 
@@ -40,7 +45,7 @@ def rank(rows: list[dict], budget: float, max_commute: float, hub_name: str) -> 
         results.append({
             **r,
             "score": round(score, 4),
-            "why": f"${_round_half_up(budget - r['rent']):,} under budget, {_round_half_up(r['minutes'])} min to {hub_name}",
+            "why": f"${_round_half_up(budget - r['rent']):,} under budget, {_fmt_minutes(r['minutes'])} min to {hub_name}",
         })
     results.sort(key=lambda x: (-x["score"], x["name"]))
     return results

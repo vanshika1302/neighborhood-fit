@@ -31,7 +31,7 @@ function ui(data) {
     $("results").innerHTML = results.length
       ? results.map((r, i) => card(r, i, byId[r.neighborhood_id])).join("")
       : `<li class="empty">Nothing fits. Try raising your budget above ${money(Math.min(...rows.map((r) => r.rent)))}
-         or allowing a longer commute (closest option is ${Math.round(Math.min(...rows.map((r) => r.minutes)))} min to ${hub.name}).</li>`;
+         or allowing a longer commute (closest option is ${fmtMinutes(Math.min(...rows.map((r) => r.minutes)))} min to ${hub.name}).</li>`;
   }
 
   ["budget", "commute", "hub"].forEach((id) => $(id).addEventListener("input", render));

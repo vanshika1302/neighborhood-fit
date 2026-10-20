@@ -54,3 +54,11 @@ def test_why_mentions_headroom_and_commute():
 
 def test_nice_to_have_is_mean_of_tags():
     assert nice_to_have({"walkability": 1.0, "beach": 0.0, "nightlife": 0.5}) == 0.5
+
+
+def test_why_shows_less_than_one_minute_instead_of_zero():
+    r = rank([row("hub", 2200, 0.0), row("near", 2200, 0.4), row("one", 2200, 0.6)], 3000, 30, "Downtown")
+    why = {x["neighborhood_id"]: x["why"] for x in r}
+    assert why["hub"] == "$800 under budget, <1 min to Downtown"
+    assert why["near"] == "$800 under budget, <1 min to Downtown"
+    assert why["one"] == "$800 under budget, 1 min to Downtown"

@@ -38,6 +38,20 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
   "expected": [
@@ -58,6 +72,24 @@
     "nice": 0.9,
     "score": 0.7023,
     "why": "$495 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4,
+    "score": 0.6773,
+    "why": "$400 under budget, <1 min to Downtown"
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4,
+    "score": 0.672,
+    "why": "$400 under budget, <1 min to Downtown"
    },
    {
     "neighborhood_id": "d",
@@ -118,6 +150,20 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
   "expected": [
@@ -129,6 +175,24 @@
     "nice": 0.9,
     "score": 0.8495,
     "why": "$1,495 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4,
+    "score": 0.8351,
+    "why": "$1,400 under budget, <1 min to Downtown"
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4,
+    "score": 0.8316,
+    "why": "$1,400 under budget, <1 min to Downtown"
    },
    {
     "neighborhood_id": "a",
@@ -207,6 +271,20 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
   "expected": [
@@ -225,8 +303,26 @@
     "rent": 2505.0,
     "minutes": 7.2,
     "nice": 0.9,
-    "score": 0.346,
+    "score": 0.4811,
     "why": "$95 under budget, 7 min to Downtown"
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4,
+    "score": 0.44,
+    "why": "$0 under budget, <1 min to Downtown"
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4,
+    "score": 0.432,
+    "why": "$0 under budget, <1 min to Downtown"
    }
   ]
  },
@@ -269,6 +365,20 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
   "expected": []
@@ -312,9 +422,42 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
-  "expected": []
+  "expected": [
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4,
+    "score": 0.94,
+    "why": "$6,400 under budget, <1 min to Downtown"
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4,
+    "score": 0.908,
+    "why": "$6,400 under budget, <1 min to Downtown"
+   }
+  ]
  },
  {
   "budget": 3000,
@@ -355,9 +498,41 @@
     "rent": 2917.6,
     "minutes": 12.5,
     "nice": 0.0
+   },
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4
    }
   ],
   "expected": [
+   {
+    "neighborhood_id": "f",
+    "name": "Foxtrot",
+    "rent": 2600.0,
+    "minutes": 0.0,
+    "nice": 0.4,
+    "score": 0.8249,
+    "why": "$400 under budget, <1 min to Downtown"
+   },
+   {
+    "neighborhood_id": "g",
+    "name": "Golf",
+    "rent": 2600.0,
+    "minutes": 0.4,
+    "nice": 0.4,
+    "score": 0.8121,
+    "why": "$400 under budget, <1 min to Downtown"
+   },
    {
     "neighborhood_id": "b",
     "name": "Bravo",

@@ -13,6 +13,8 @@ ROWS = [
     {"neighborhood_id": "c", "name": "Charlie", "rent": 3925.0, "minutes": 33.0, "nice": 0.7},
     {"neighborhood_id": "d", "name": "Delta", "rent": 2917.6, "minutes": 12.5, "nice": 0.0},
     {"neighborhood_id": "e", "name": "Echo", "rent": 2917.6, "minutes": 12.5, "nice": 0.0},
+    {"neighborhood_id": "f", "name": "Foxtrot", "rent": 2600.0, "minutes": 0.0, "nice": 0.4},
+    {"neighborhood_id": "g", "name": "Golf", "rent": 2600.0, "minutes": 0.4, "nice": 0.4},
 ]
 SCENARIOS = [(3000, 30), (4000, 45), (2600, 20), (2300, 10), (9000, 5), (3000, 12.5)]
 

@@ -1,6 +1,8 @@
 // JS mirror of src/neighborhood_fit/score.py. Keep in sync; tests/parity.test.mjs enforces it.
 const W_RENT = 0.5, W_COMMUTE = 0.4, W_NICE = 0.1;
 
+const fmtMinutes = (m) => (Math.round(m) === 0 ? "<1" : String(Math.round(m)));
+
 const clamp01 = (x) => Math.max(0, Math.min(1, x));
 
 function rank(rows, budget, maxCommute, hubName) {
@@ -17,7 +19,7 @@ function rank(rows, budget, maxCommute, hubName) {
     return {
       ...r,
       score: Number(score.toFixed(4)),
-      why: `$${Math.round(budget - r.rent).toLocaleString("en-US")} under budget, ${Math.round(r.minutes)} min to ${hubName}`,
+      why: `$${Math.round(budget - r.rent).toLocaleString("en-US")} under budget, ${fmtMinutes(r.minutes)} min to ${hubName}`,
     };
   });
   results.sort((a, b) => b.score - a.score || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0));
