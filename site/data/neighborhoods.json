@@ -30,10 +30,10 @@
    "as_of": "2026-09-30",
    "nice": 0.3,
    "minutes": {
-    "downtown": 18.0,
-    "utc": 39.0,
-    "kearny_mesa": 23.6,
-    "sorrento_valley": 43.2
+    "downtown": 9.3,
+    "utc": 19.7,
+    "kearny_mesa": 13.4,
+    "sorrento_valley": 21.6
    }
   },
   {
@@ -48,10 +48,10 @@
    "as_of": "2026-09-30",
    "nice": 0.3,
    "minutes": {
-    "downtown": 27.1,
-    "utc": 17.0,
-    "kearny_mesa": 14.7,
-    "sorrento_valley": 22.8
+    "downtown": 17.2,
+    "utc": 10.5,
+    "kearny_mesa": 10.0,
+    "sorrento_valley": 16.5
    }
   },
   {
@@ -66,10 +66,10 @@
    "as_of": "2026-09-30",
    "nice": 0.7167,
    "minutes": {
-    "downtown": 5.0,
-    "utc": 39.1,
-    "kearny_mesa": 27.9,
-    "sorrento_valley": 44.7
+    "downtown": 0.0,
+    "utc": 18.0,
+    "kearny_mesa": 12.2,
+    "sorrento_valley": 21.4
    }
   },
   {
@@ -84,10 +84,10 @@
    "as_of": "2026-09-30",
    "nice": 0.5833,
    "minutes": {
-    "downtown": 11.9,
-    "utc": 32.4,
-    "kearny_mesa": 21.4,
-    "sorrento_valley": 37.9
+    "downtown": 5.5,
+    "utc": 16.7,
+    "kearny_mesa": 9.4,
+    "sorrento_valley": 18.6
    }
   },
   {
@@ -102,10 +102,10 @@
    "as_of": "2026-09-30",
    "nice": 0.7167,
    "minutes": {
-    "downtown": 36.5,
-    "utc": 17.9,
-    "kearny_mesa": 28.0,
-    "sorrento_valley": 23.4
+    "downtown": 19.4,
+    "utc": 12.3,
+    "kearny_mesa": 17.0,
+    "sorrento_valley": 16.4
    }
   },
   {
@@ -120,10 +120,10 @@
    "as_of": "2026-09-30",
    "nice": 0.1667,
    "minutes": {
-    "downtown": 47.2,
-    "utc": 20.6,
-    "kearny_mesa": 24.4,
-    "sorrento_valley": 16.3
+    "downtown": 22.8,
+    "utc": 12.4,
+    "kearny_mesa": 14.9,
+    "sorrento_valley": 8.5
    }
   },
   {
@@ -138,10 +138,10 @@
    "as_of": "2026-09-30",
    "nice": 0.2667,
    "minutes": {
-    "downtown": 16.6,
-    "utc": 29.2,
-    "kearny_mesa": 16.3,
-    "sorrento_valley": 34.1
+    "downtown": 8.0,
+    "utc": 15.1,
+    "kearny_mesa": 7.9,
+    "sorrento_valley": 17.0
    }
   },
   {
@@ -156,10 +156,10 @@
    "as_of": "2026-09-30",
    "nice": 0.6,
    "minutes": {
-    "downtown": 12.7,
-    "utc": 36.2,
-    "kearny_mesa": 22.5,
-    "sorrento_valley": 41.1
+    "downtown": 5.9,
+    "utc": 17.6,
+    "kearny_mesa": 11.3,
+    "sorrento_valley": 19.5
    }
   },
   {
@@ -174,10 +174,10 @@
    "as_of": "2026-09-30",
    "nice": 0.75,
    "minutes": {
-    "downtown": 22.1,
-    "utc": 31.4,
-    "kearny_mesa": 29.6,
-    "sorrento_valley": 37.8
+    "downtown": 11.3,
+    "utc": 18.3,
+    "kearny_mesa": 15.1,
+    "sorrento_valley": 21.7
    }
   },
   {
@@ -192,10 +192,10 @@
    "as_of": "2026-09-30",
    "nice": 0.85,
    "minutes": {
-    "downtown": 28.9,
-    "utc": 22.2,
-    "kearny_mesa": 25.8,
-    "sorrento_valley": 28.5
+    "downtown": 14.4,
+    "utc": 13.7,
+    "kearny_mesa": 14.2,
+    "sorrento_valley": 17.1
    }
   },
   {
@@ -210,10 +210,10 @@
    "as_of": "2026-09-30",
    "nice": 0.5333,
    "minutes": {
-    "downtown": 18.0,
-    "utc": 35.3,
-    "kearny_mesa": 30.8,
-    "sorrento_valley": 41.7
+    "downtown": 10.1,
+    "utc": 19.9,
+    "kearny_mesa": 16.7,
+    "sorrento_valley": 23.3
    }
   },
   {
@@ -228,10 +228,10 @@
    "as_of": "2026-09-30",
    "nice": 0.1333,
    "minutes": {
-    "downtown": 58.0,
-    "utc": 30.9,
-    "kearny_mesa": 35.0,
-    "sorrento_valley": 25.2
+    "downtown": 25.7,
+    "utc": 20.2,
+    "kearny_mesa": 17.7,
+    "sorrento_valley": 18.0
    }
   },
   {
@@ -246,10 +246,10 @@
    "as_of": "2026-09-30",
    "nice": 0.1,
    "minutes": {
-    "downtown": 49.4,
-    "utc": 29.2,
-    "kearny_mesa": 26.9,
-    "sorrento_valley": 25.7
+    "downtown": 28.2,
+    "utc": 23.1,
+    "kearny_mesa": 20.3,
+    "sorrento_valley": 21.2
    }
   },
   {
@@ -264,12 +264,11 @@
    "as_of": "2026-09-30",
    "nice": 0.3667,
    "minutes": {
-    "downtown": 36.6,
-    "utc": 7.5,
-    "kearny_mesa": 19.6,
-    "sorrento_valley": 13.8
+    "downtown": 18.6,
+    "utc": 5.9,
+    "kearny_mesa": 11.9,
+    "sorrento_valley": 12.6
    }
   }
- ],
- "sample": true
+ ]
 }

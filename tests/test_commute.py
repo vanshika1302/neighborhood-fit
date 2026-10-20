@@ -27,3 +27,10 @@ def test_parse_response_converts_seconds_to_minutes():
 def test_parse_response_rejects_missing_route():
     with pytest.raises(ValueError):
         parse_response({"durations": [[None], [60.0]]}, N, H)
+
+
+def test_build_osrm_url_one_request_lon_lat_order():
+    from neighborhood_fit.commute import build_osrm_url
+    url = build_osrm_url(N, H)
+    assert url.startswith("https://router.project-osrm.org/table/v1/driving/-117.1,32.7;-117.2,32.8;-117.3,32.9?")
+    assert "sources=0;1" in url and "destinations=2" in url

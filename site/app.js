@@ -2,16 +2,13 @@ const $ = (id) => document.getElementById(id);
 const money = (n) => "$" + Math.round(n).toLocaleString("en-US");
 
 async function loadData() {
-  for (const url of ["data/neighborhoods.json", "data/neighborhoods.sample.json"]) {
-    const res = await fetch(url);
-    if (res.ok) return res.json();
-  }
-  throw new Error("No neighborhood data found");
+  const res = await fetch("data/neighborhoods.json");
+  if (!res.ok) throw new Error("No neighborhood data found");
+  return res.json();
 }
 
 function ui(data) {
   const { hubs, neighborhoods } = data;
-  $("sample-banner").hidden = !data.sample;
   $("as-of").textContent = neighborhoods[0].as_of;
   $("hub").innerHTML = hubs.map((h) => `<option value="${h.hub_id}">${h.name}</option>`).join("");
 

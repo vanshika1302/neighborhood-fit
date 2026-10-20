@@ -1,11 +1,11 @@
 :root {
   --bg: #f7f7f5; --card: #ffffff; --ink: #1c1c1a; --ink-2: #55554f; --muted: #6b6b64;
-  --line: #e2e2dc; --bar: #2a63c9; --track: #e6e8ee; --accent-bg: #fff6dd; --accent-ink: #6a4b00;
+  --line: #e2e2dc; --bar: #2a63c9; --track: #e6e8ee;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #14151a; --card: #1d1f26; --ink: #ececea; --ink-2: #b4b4ae; --muted: #9a9a94;
-    --line: #2d2f38; --bar: #6ea0f2; --track: #2c3040; --accent-bg: #3a2f10; --accent-ink: #f2d98c;
+    --line: #2d2f38; --bar: #6ea0f2; --track: #2c3040;
   }
 }
 * { box-sizing: border-box; }
@@ -13,7 +13,6 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 syst
 main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
 h1 { margin: 0; font-size: 1.6rem; }
 .sub { margin: 4px 0 20px; color: var(--ink-2); }
-.banner { background: var(--accent-bg); color: var(--accent-ink); padding: 10px 12px; border-radius: 8px; margin-bottom: 16px; font-size: .9rem; }
 .controls { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
 .controls label { display: grid; gap: 6px; font-size: .85rem; color: var(--ink-2); position: relative; }
 .controls output { position: absolute; right: 0; top: 0; color: var(--ink); font-weight: 600; }
