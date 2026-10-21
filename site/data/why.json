@@ -40,6 +40,10 @@
    "city_heights": "$352/month under budget with a 13-minute commute; nightlife is sparse.",
    "north_park": "High walkability and strong nightlife with an 11-minute commute; $95/month under budget."
   },
+  "2600|45|sorrento_valley": {
+   "city_heights": "Leaves $352 monthly headroom at a 22-minute commute, though beach proximity and nightlife are both weak.",
+   "north_park": "Walkability and nightlife strong with 20-minute commute, though headroom is just $95 and beach minimal."
+  },
   "2600|45|utc": {
    "city_heights": "Leaves $352/month in budget cushion with a 20-minute drive to UTC; no beach access and limited nightlife.",
    "north_park": "Walkable with strong nightlife and an 18-minute drive to UTC, but only $95 budget cushion remains."
@@ -67,6 +71,15 @@
    "hillcrest": "Strong walkability and nightlife with $236 cushion; 19-minute commute is near your limit, minimal beach.",
    "north_park": "Offers $495 rent cushion with strong walkability and nightlife; 20-minute commute uses your full window."
   },
+  "3000|20|utc": {
+   "city_heights": "Saves $752/month at 20-minute drive, though beach and nightlife options are limited.",
+   "clairemont": "Quick 11-minute drive with moderate beach access; walkability and nightlife are limited.",
+   "downtown": "Excellent walkability and nightlife at 18-minute commute; only $83 monthly rent cushion.",
+   "hillcrest": "Vibrant walkability and nightlife at 17-minute drive; beach presence is negligible.",
+   "north_park": "Strong walkability and nightlife scene with 18-minute commute; beach access is minimal.",
+   "ocean_beach": "Strong beach access with decent walkability at 18-minute drive; rent leaves minimal buffer.",
+   "point_loma": "Good beach access at maximum 20-minute drive; walkability and nightlife are moderate."
+  },
   "3000|30|downtown": {
    "city_heights": "Saves $752/month with a 9-minute drive, though beach and nightlife are minimal here.",
    "clairemont": "Saves $284/month but lacks walkability and nightlife, with a 17-minute commute.",
@@ -84,6 +97,24 @@
    "north_park": "Strong walkability and nightlife with 11-minute commute, though beach proximity is minimal.",
    "ocean_beach": "Strong beach proximity leaves $146 under budget, though the 15-minute drive and nightlife are moderate.",
    "point_loma": "Strong beach access and $125 buffer, though 17-minute drive and limited walkability/nightlife apply."
+  },
+  "3000|30|sorrento_valley": {
+   "city_heights": "Save $752 monthly with a 22-minute drive, though nightlife and beach access are limited.",
+   "clairemont": "17-minute commute with moderate beach, but it's car-dependent and offers limited walkability or nightlife.",
+   "downtown": "Walk to restaurants and clubs in 21 minutes, with vibrant nightlife, but leaves just $83 monthly cushion.",
+   "hillcrest": "Walk to venues and nightlife in 19 minutes, with vibrant urban living, though beach access is minimal.",
+   "north_park": "Walk to restaurants and nightlife in a 20-minute drive, with $495 cushion, but beach access is minimal.",
+   "ocean_beach": "Beach-focused living with good walkability in 22 minutes, though only $146 budget cushion remains.",
+   "point_loma": "Good beach access in 23 minutes with $125 cushion, though walkability is moderate and nightlife is sparse."
+  },
+  "3000|30|utc": {
+   "city_heights": "$752 rent headroom with 20-minute UTC commute; no beach and limited nightlife.",
+   "clairemont": "11-minute UTC commute; walkability and nightlife are limited but beach access is moderate.",
+   "downtown": "Highly walkable with exceptional nightlife, 18-minute UTC commute; beach access is moderate.",
+   "hillcrest": "Highly walkable with strong nightlife, 17-minute UTC commute, though beach access is minimal.",
+   "north_park": "18-minute UTC commute in a highly walkable neighborhood with strong nightlife; minimal beach.",
+   "ocean_beach": "Strong beach access and walkable within budget; rent increased 2.8% year-over-year.",
+   "point_loma": "Strong beach access with 20-minute UTC commute; nightlife is limited and rent rose 2.8% annually."
   },
   "3000|45|downtown": {
    "city_heights": "Saves $752/month on rent with a 9-minute drive, but nightlife and beach access are limited.",
@@ -155,6 +186,19 @@
    "pacific_beach": "Direct beach access and strong nightlife; $228 cushion is tight for this budget.",
    "university_city": "13-minute commute with moderate beach access; walkability and nightlife are underdeveloped."
   },
+  "3500|20|utc": {
+   "city_heights": "$1,252 saved; 20-minute commute with weak nightlife.",
+   "clairemont": "11-minute commute with $784 savings, though walkability is minimal.",
+   "downtown": "Excellent walkability and nightlife with moderate beach; save $583 monthly.",
+   "hillcrest": "Within 17 minutes, strong walkability and nightlife; $736 monthly savings.",
+   "mira_mesa": "$456 savings with 12-minute commute; walkability, beach, and nightlife are minimal.",
+   "mission_valley": "$332 saved in 15 minutes; walkability, beach, and nightlife are minimal.",
+   "north_park": "Strong walkability and nightlife with $995 savings; 18-minute commute.",
+   "ocean_beach": "Strong beach access and good walkability with $646 savings; 18-minute commute.",
+   "pacific_beach": "Beach and nightlife are excellent with good walkability; $228 headroom; 14-minute commute.",
+   "point_loma": "Strong beach with moderate walkability and $625 savings; 20-minute commute.",
+   "university_city": "6-minute commute with $215 headroom; walkability and nightlife are weak."
+  },
   "3500|30|downtown": {
    "city_heights": "Save $1,252/month on rent with a 9-minute commute; nightlife is sparse.",
    "clairemont": "Budget-friendly at $784 under limit with 17-minute commute; car-dependent and quiet.",
@@ -194,6 +238,19 @@
    "point_loma": "Good beach setting with $625 and 23-minute commute; walkability moderate, nightlife limited.",
    "university_city": "13-minute commute with modest beach proximity; only $215 headroom and limited walkability/nightlife."
   },
+  "3500|30|utc": {
+   "city_heights": "Saves $1,252/month with a 20-minute drive, though beach access and nightlife are limited.",
+   "clairemont": "11-minute drive to UTC with $784 headroom; walkability and nightlife are limited.",
+   "downtown": "Urban hub with excellent walkability, thriving nightlife, and 18-minute commute; beach access is limited.",
+   "hillcrest": "Strong walkability and vibrant nightlife with 17-minute commute; beach access is weak.",
+   "mira_mesa": "Delivers 12-minute drive to UTC with $456 headroom; walkability and nightlife are limited.",
+   "mission_valley": "Provides 15-minute commute with $332 headroom; walkability, beach access, and nightlife are limited.",
+   "north_park": "Offers walkable streets with strong nightlife and $995/month buffer, but weak beach access.",
+   "ocean_beach": "Beach destination with walkable streets, 18-minute commute, and $646 monthly buffer.",
+   "pacific_beach": "Strong beach, walkability, and nightlife with 14-minute drive; budget remaining is just $228.",
+   "point_loma": "Beach-oriented with moderate walkability and 20-minute commute, but limited nightlife.",
+   "university_city": "Just 6-minute commute to UTC with only $215 headroom; walkability and nightlife are limited."
+  },
   "3500|45|downtown": {
    "city_heights": "$1,252 under budget with a 9-minute commute, though beach and nightlife are limited.",
    "clairemont": "$784 under budget with a 17-minute drive, though walkability and nightlife are limited.",
@@ -219,6 +276,32 @@
    "pacific_beach": "Beach and nightlife thrive with walkable streets, 14-minute commute; only $228 remains in budget.",
    "point_loma": "Beach-focused with 17-minute commute and walkable areas; nightlife is limited.",
    "university_city": "Moderate beach access with 12-minute commute; walkability and nightlife are limited, budget is tight."
+  },
+  "3500|45|sorrento_valley": {
+   "city_heights": "Saves $1,252/month with 22-minute commute, though beach access is unavailable and nightlife is limited.",
+   "clairemont": "Saves $784/month with a 17-minute commute, though walkability and nightlife are weak.",
+   "downtown": "Highly walkable with strong nightlife and $583 in savings, though beach proximity is limited.",
+   "hillcrest": "Saves $736/month with strong walkability and nightlife, though beach access is minimal.",
+   "mira_mesa": "Commute to Sorrento Valley in 9 minutes with $456 headroom, though walkability and nightlife are weak.",
+   "mission_valley": "Reaches Sorrento Valley in 17 minutes with $332 budget cushion, though walkability and nightlife are weak.",
+   "north_park": "$995 in monthly savings with strong walkability and nightlife, though beach access is minimal.",
+   "ocean_beach": "Strong beach presence with walkable streets and $646 monthly savings, though commute reaches 22 minutes.",
+   "pacific_beach": "Full beach access with walkable streets and strong nightlife, though only $228 remains in budget.",
+   "point_loma": "Strong beach presence with $625 in monthly savings, though commute reaches 23 minutes and nightlife is weak.",
+   "university_city": "13-minute commute and $215 in savings, though walkability and nightlife are limited."
+  },
+  "3500|45|utc": {
+   "city_heights": "$1,252 monthly budget cushion with 20-minute commute; no beach and limited nightlife.",
+   "clairemont": "11-minute commute with some beach proximity; limited walkability and nightlife options.",
+   "downtown": "Walkable with strong nightlife, 18-minute commute, though beach access is weak.",
+   "hillcrest": "Walkable with strong nightlife and 17-minute drive; beach access is minimal.",
+   "mira_mesa": "12-minute drive with $456 monthly cushion, but car-dependent and no beach or nightlife.",
+   "mission_valley": "15-minute drive with $332 monthly cushion; car-dependent with no beach or nightlife.",
+   "north_park": "Walkable neighborhood with strong nightlife and $995 monthly headroom; no beach access.",
+   "ocean_beach": "Strong beach access and walkable streets; 18-minute commute with $646 monthly cushion.",
+   "pacific_beach": "Direct beach access with walkable streets and strong nightlife, though budget is tight.",
+   "point_loma": "Strong beach proximity with moderate walkability and 20-minute commute; weak nightlife.",
+   "university_city": "6-minute commute to UTC; tight budget ($215 cushion) with limited walkability/nightlife."
   }
  }
 }
