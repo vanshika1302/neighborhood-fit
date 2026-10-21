@@ -7,7 +7,17 @@ async function loadData() {
   return res.json();
 }
 
-function ui(data) {
+// Pre-generated (claude -p) why lines exist only for preset budget/commute/hub combos.
+async function loadWhy() {
+  try {
+    const res = await fetch("data/why.json");
+    return res.ok ? (await res.json()).scenarios : {};
+  } catch {
+    return {};
+  }
+}
+
+function ui(data, whyByScenario) {
   const { hubs, neighborhoods } = data;
   $("as-of").textContent = neighborhoods[0].as_of;
   $("hub").innerHTML = hubs.map((h) => `<option value="${h.hub_id}">${h.name}</option>`).join("");
@@ -23,6 +33,8 @@ function ui(data) {
       rent: n.rent, minutes: n.minutes[hub.hub_id], nice: n.nice,
     }));
     const results = rank(rows, budget, maxCommute, hub.name);
+    const llmWhy = whyByScenario[`${budget}|${maxCommute}|${hub.hub_id}`] || {};
+    results.forEach((r) => { r.why = llmWhy[r.neighborhood_id] || r.why; });
     const byId = Object.fromEntries(neighborhoods.map((n) => [n.neighborhood_id, n]));
 
     $("summary").textContent = results.length
@@ -45,8 +57,8 @@ function card(r, i, n) {
     <span class="name">${r.name}<span class="score" title="Relative fit score">${Math.round(r.score * 100)}</span></span>
     <div class="bar" role="img" aria-label="Fit ${Math.round(r.score * 100)} out of 100"><span style="width:${r.score * 100}%"></span></div>
     <p class="why">${r.why}</p>
-    <span class="meta">ZIP ${n.zip} · ${money(r.rent)}/mo${yoy}</span>
+    <span class="meta">ZIP ${n.zip} · ${money(r.rent)}/mo · ${fmtMinutes(r.minutes)} min drive${yoy}</span>
   </li>`;
 }
 
-loadData().then(ui).catch((e) => { $("results").innerHTML = `<li class="empty">${e.message}</li>`; });
+Promise.all([loadData(), loadWhy()]).then(([data, why]) => ui(data, why)).catch((e) => { $("results").innerHTML = `<li class="empty">${e.message}</li>`; });

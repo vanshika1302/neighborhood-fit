@@ -1,0 +1,224 @@
+{
+ "model": "haiku",
+ "scenarios": {
+  "2600|20|downtown": {
+   "city_heights": "Saves $352 monthly and sits 9 minutes from downtown, though nightlife is weak and beach is absent.",
+   "north_park": "Strong walkability and nightlife, plus a 6-minute commute; just $95 budget cushion and minimal beach."
+  },
+  "2600|20|kearny_mesa": {
+   "city_heights": "Leaves $352 monthly budget headroom with a 13-minute commute, though nightlife is limited.",
+   "north_park": "Strong walkability and nightlife with 11-minute drive, but limited beach access."
+  },
+  "2600|20|sorrento_valley": {
+   "north_park": "$95 under budget monthly with strong walkability and nightlife; beach access is minimal."
+  },
+  "2600|20|utc": {
+   "city_heights": "Offers $352 monthly headroom with a 20-minute commute, though beach and nightlife are weak.",
+   "north_park": "Strong walkability and nightlife with an 18-minute commute, but only $95 under budget."
+  },
+  "2600|30|downtown": {
+   "city_heights": "Offers $352 monthly savings with a 9-minute commute, though beach and nightlife options are limited.",
+   "north_park": "Features strong walkability and nightlife with a 6-minute commute; beach access is limited."
+  },
+  "2600|30|kearny_mesa": {
+   "city_heights": "Offers $352 rent headroom with a 13-minute commute to Kearny Mesa, but nightlife is sparse.",
+   "north_park": "Strong walkability and nightlife with an 11-minute commute, leaving just $95 under budget."
+  },
+  "2600|30|sorrento_valley": {
+   "city_heights": "$352 under budget and 22-minute commute, though nightlife is limited and beach unavailable.",
+   "north_park": "Strong walkability and nightlife with 20-minute commute; budget cushion is just $95."
+  },
+  "2600|30|utc": {
+   "city_heights": "$352/month rent headroom with a 20-minute drive, though nightlife is sparse and there's no beach.",
+   "north_park": "Strong walkability and nightlife with an 18-minute drive, though beach access is minimal."
+  },
+  "2600|45|downtown": {
+   "city_heights": "Nine minutes to downtown with $352 monthly saved, though there's no beach access.",
+   "north_park": "Strong walkability and nightlife within 6 minutes, but only $95 monthly cushion remains."
+  },
+  "2600|45|kearny_mesa": {
+   "city_heights": "$352/month under budget with a 13-minute commute; nightlife is sparse.",
+   "north_park": "High walkability and strong nightlife with an 11-minute commute; $95/month under budget."
+  },
+  "2600|45|utc": {
+   "city_heights": "Leaves $352/month in budget cushion with a 20-minute drive to UTC; no beach access and limited nightlife.",
+   "north_park": "Walkable with strong nightlife and an 18-minute drive to UTC, but only $95 budget cushion remains."
+  },
+  "3000|20|downtown": {
+   "city_heights": "Saves $752/month with a 9-minute commute, though beach and nightlife are limited.",
+   "clairemont": "$284/month headroom with a 17-minute commute, though walkability, beach, and nightlife are weak.",
+   "downtown": "Very walkable with strong nightlife and virtually no commute, leaving $83 budget headroom.",
+   "hillcrest": "Enjoy strong nightlife and walkability with a 6-minute commute and $236 rent headroom.",
+   "north_park": "Walk everywhere and enjoy strong nightlife with a 6-minute commute, though beach access is limited.",
+   "ocean_beach": "Beach-focused with good walkability and an 11-minute commute, though nightlife is moderate.",
+   "point_loma": "Strong beach access with a 10-minute commute, though walkability and nightlife are limited."
+  },
+  "3000|20|kearny_mesa": {
+   "city_heights": "Leaves $752 monthly cushion with a 13-minute drive, though nightlife is limited.",
+   "clairemont": "Ten-minute drive with moderate beach access, but walkability and nightlife are weak.",
+   "downtown": "Very strong walkability and nightlife in a 12-minute commute, but leaves only $83 monthly buffer.",
+   "hillcrest": "A 9-minute drive with strong walkability and nightlife, though budget headroom is tight at $236.",
+   "north_park": "An 11-minute commute with strong walkability and nightlife, though beaches are distant.",
+   "ocean_beach": "Strong beach proximity with decent walkability in a 15-minute drive, modest nightlife options.",
+   "point_loma": "A 17-minute drive offers strong beach access but limited walkability and nightlife options."
+  },
+  "3000|20|sorrento_valley": {
+   "clairemont": "17-minute commute offers breathing room, with some beach access, though walkability and nightlife are limited.",
+   "hillcrest": "Strong walkability and nightlife with $236 cushion; 19-minute commute is near your limit, minimal beach.",
+   "north_park": "Offers $495 rent cushion with strong walkability and nightlife; 20-minute commute uses your full window."
+  },
+  "3000|30|downtown": {
+   "city_heights": "Saves $752/month with a 9-minute drive, though beach and nightlife are minimal here.",
+   "clairemont": "Saves $284/month but lacks walkability and nightlife, with a 17-minute commute.",
+   "downtown": "Highly walkable with strong nightlife and virtually no commute, leaving $83 budget room.",
+   "hillcrest": "Walkable neighborhood with strong nightlife just 6 minutes from Downtown, though beach access is minimal.",
+   "north_park": "Strong walkability and nightlife within a 6-minute drive, leaving $495/month to spare.",
+   "ocean_beach": "Strong beach access with an 11-minute commute and $146 to spare in your budget.",
+   "point_loma": "Good beach access within a 10-minute drive, though walkability is moderate and nightlife is limited."
+  },
+  "3000|30|kearny_mesa": {
+   "city_heights": "Rent headroom of $752 and 13-minute drive, but nightlife and beach access are minimal.",
+   "clairemont": "Quick 10-minute drive and moderate beach access, but limited walkability and nightlife options.",
+   "downtown": "Strong walkability and nightlife with 12-minute commute, but rent leaves only $83 cushion.",
+   "hillcrest": "9-minute drive with strong walkability and nightlife, though rent budget cushion is limited.",
+   "north_park": "Strong walkability and nightlife with 11-minute commute, though beach proximity is minimal.",
+   "ocean_beach": "Strong beach proximity leaves $146 under budget, though the 15-minute drive and nightlife are moderate.",
+   "point_loma": "Strong beach access and $125 buffer, though 17-minute drive and limited walkability/nightlife apply."
+  },
+  "3000|45|downtown": {
+   "city_heights": "Saves $752/month on rent with a 9-minute drive, but nightlife and beach access are limited.",
+   "clairemont": "Leaves $284 in savings with a 17-minute commute, though walkability and nightlife are limited.",
+   "downtown": "Nearly zero commute with exceptional walkability and nightlife, leaving only $83 in headroom.",
+   "hillcrest": "Strong walkability and nightlife with a 6-minute commute, but leaves only $236 in headroom.",
+   "north_park": "With strong walkability and nightlife just 6 minutes away, beach access is minimal.",
+   "ocean_beach": "Exceptional beach access with an 11-minute commute, though only $146 remains in your budget.",
+   "point_loma": "Strong beach access with a 10-minute commute, though only $125 remains in budget and nightlife is weak."
+  },
+  "3000|45|kearny_mesa": {
+   "city_heights": "Frees up $752 monthly budget, though nightlife is limited.",
+   "clairemont": "10-minute commute, though walkability and nightlife are limited.",
+   "downtown": "Very strong walkability and nightlife, though rent leaves just $83.",
+   "hillcrest": "9-minute commute with strong walkability and nightlife.",
+   "north_park": "Strong walkability and nightlife within 11-minute commute.",
+   "ocean_beach": "Strong beach and walkability, though nightlife is moderate.",
+   "point_loma": "Strong beach with moderate walkability, though nightlife is limited."
+  },
+  "3000|45|sorrento_valley": {
+   "city_heights": "Saves $752/month with a 22-minute commute and decent walkability, though beach and nightlife remain weak.",
+   "clairemont": "17-minute commute with moderate beach proximity, though walkability and nightlife remain weak.",
+   "downtown": "Exceptional walkability and vibrant nightlife, but rent leaves only $83 monthly cushion.",
+   "hillcrest": "Vibrant walkability and nightlife scene with a 19-minute commute, though beach access is minimal.",
+   "north_park": "Excellent walkability and nightlife with $495 in monthly cushion, though beach access is minimal.",
+   "ocean_beach": "Exceptional beach with strong walkability, but rent leaves only $146 monthly cushion.",
+   "point_loma": "Strong beach proximity with a 23-minute commute, though nightlife is weak and walkability is moderate."
+  },
+  "3000|45|utc": {
+   "city_heights": "Offers $752 monthly rent savings with 20-minute commute, though nightlife and beach are limited.",
+   "clairemont": "Just 11 minutes to UTC/La Jolla Village, though walkability and nightlife are somewhat limited.",
+   "downtown": "Highly walkable with strong nightlife and 18-minute commute, but leaves only $83 monthly buffer.",
+   "hillcrest": "Walkable neighborhood with strong nightlife, 17-minute commute, $236 savings, minimal beach.",
+   "north_park": "Strong walkability and nightlife with 18-minute commute and $495 monthly savings, minimal beach.",
+   "ocean_beach": "18-minute commute with strong beach and walkability, though only $146 monthly savings remains.",
+   "point_loma": "Offers strong beach access with $125 monthly savings, though nightlife is somewhat weak."
+  },
+  "3500|20|downtown": {
+   "city_heights": "Rent at $2,248 leaves $1,252 monthly cushion with 9-minute commute; nightlife is limited.",
+   "clairemont": "$784 rent cushion available for 17-minute commute; walkability and nightlife are sparse.",
+   "downtown": "Minimal commute with excellent walkability and nightlife for urban living.",
+   "hillcrest": "Strong walkability and nightlife with 6-minute commute; $736 budget cushion available.",
+   "mission_valley": "8-minute commute but rent leaves only $332 cushion; limited walkability and no beach.",
+   "north_park": "Strong walkability and nightlife with 6-minute commute; $995 budget cushion available.",
+   "ocean_beach": "Excellent beach access with solid walkability; 11-minute commute leaves $646 cushion.",
+   "pacific_beach": "Excellent beach and strong nightlife with solid walkability; only $228 budget cushion.",
+   "point_loma": "Strong beach access with 10-minute commute; walkability and nightlife are limited.",
+   "university_city": "Fits 19-minute commute limit but leaves only $215 cushion; limited walkability and nightlife."
+  },
+  "3500|20|kearny_mesa": {
+   "city_heights": "Leaves $1,252 monthly breathing room with 13-minute commute; nightlife is limited.",
+   "clairemont": "10-minute commute and $784 savings; walkability and nightlife are both weak.",
+   "downtown": "Exceptional walkability and nightlife with 12-minute commute; $583 in monthly savings.",
+   "hillcrest": "9-minute commute with strong walkability and nightlife; $736 in monthly headroom.",
+   "mira_mesa": "$456 monthly savings with 15-minute commute; walkability and nightlife are weak.",
+   "mission_valley": "8-minute commute with $332 monthly savings; walkability and nightlife are both limited.",
+   "north_park": "Strong walkability and nightlife with 11-minute commute and $995 in monthly savings.",
+   "ocean_beach": "Excellent beach access with walkable streets; 15-minute commute and $646 monthly headroom.",
+   "pacific_beach": "Perfect beach and strong nightlife with walkable streets; $228 in monthly headroom.",
+   "point_loma": "Strong beach access with moderate walkability; 17-minute commute and $625 monthly savings.",
+   "university_city": "Moderate beach access with 12-minute commute; minimal savings and weak walkability."
+  },
+  "3500|20|sorrento_valley": {
+   "clairemont": "$784 cushion and 17-minute commute; walkability and nightlife are sparse.",
+   "hillcrest": "Walkable with active nightlife and $736 cushion; beach access is limited.",
+   "mira_mesa": "9-minute commute with $456 cushion; walkability and nightlife are sparse.",
+   "mission_valley": "17-minute commute with moderate nightlife; walkability and beach access are limited.",
+   "north_park": "$995/month cushion with strong walkability and nightlife; beach access is limited.",
+   "pacific_beach": "Direct beach access and strong nightlife; $228 cushion is tight for this budget.",
+   "university_city": "13-minute commute with moderate beach access; walkability and nightlife are underdeveloped."
+  },
+  "3500|30|downtown": {
+   "city_heights": "Save $1,252/month on rent with a 9-minute commute; nightlife is sparse.",
+   "clairemont": "Budget-friendly at $784 under limit with 17-minute commute; car-dependent and quiet.",
+   "downtown": "Nearly zero commute with excellent walkability and nightlife; $583 cushion remains.",
+   "hillcrest": "Highly walkable with strong nightlife reaches downtown in 6 minutes, keeping $736/month in budget.",
+   "mira_mesa": "Leaves $456 breathing room but requires 23-minute drive to downtown in car-oriented area.",
+   "mission_valley": "Eight-minute commute makes this car-dependent area affordable; limited budget cushion ($332).",
+   "north_park": "Walkable neighborhood with vibrant nightlife reaches downtown in 6 minutes, leaving $995/month unspent.",
+   "ocean_beach": "Exceptional beach access with strong walkability; 11-minute drive leaves $646 unspent.",
+   "pacific_beach": "Prime beach with excellent walkability and nightlife; slim budget margin ($228) at 14-min drive.",
+   "point_loma": "Strong beach presence with 10-minute commute; walkability is modest, nightlife limited.",
+   "university_city": "Minimal budget cushion ($215) after 19-minute commute; limited walkability and nightlife."
+  },
+  "3500|30|kearny_mesa": {
+   "city_heights": "Saves $1,252/month with moderate walkability but limited nightlife.",
+   "clairemont": "Save $784/month with moderate beach but weak walkability and nightlife.",
+   "downtown": "Exceptional walkability and nightlife on 12-minute commute; beach access is limited.",
+   "hillcrest": "9-minute commute with strong walkability and nightlife; no beach.",
+   "mira_mesa": "Save $456 with 15-minute commute; walkability and nightlife are weak.",
+   "mission_valley": "8-minute commute but tight rent budget; walkability and nightlife are weak.",
+   "north_park": "Strong walkability and nightlife on 11-minute commute; no beach access.",
+   "ocean_beach": "Exceptional beach with good walkability on 15-minute commute.",
+   "pacific_beach": "Exceptional beach and strong nightlife on 14-minute commute; rent margin is tight.",
+   "point_loma": "Strong beach with moderate budget cushion; 17-minute commute and limited nightlife.",
+   "university_city": "12-minute commute with moderate beach access; tight budget and weak walkability."
+  },
+  "3500|30|sorrento_valley": {
+   "city_heights": "Saves $1,252/month with 22-min drive, though nightlife and beach access are sparse.",
+   "clairemont": "17-minute commute with modest beach access and $784 headroom; walkability and nightlife are limited.",
+   "downtown": "Highly walkable with vibrant nightlife, $583 headroom, 21-minute drive\u2014limited beach access.",
+   "hillcrest": "Highly walkable with strong nightlife, 19-minute commute, and $736 monthly cushion\u2014beach access is minimal.",
+   "mira_mesa": "Quick 9-minute commute with $456 headroom; walkability, nightlife, and beach access are limited.",
+   "mission_valley": "Quick 17-minute commute with $332 headroom; walkability, nightlife, and beach access are limited.",
+   "north_park": "Strong walkability and nightlife, $995 headroom, 20-minute commute\u2014minimal beach access.",
+   "ocean_beach": "Strong beach setting and walkability, $646 headroom, 22-minute commute; nightlife is moderate.",
+   "pacific_beach": "Perfect beach setting, strong nightlife, good walkability, 17-minute drive\u2014only $228 monthly headroom.",
+   "point_loma": "Good beach setting with $625 and 23-minute commute; walkability moderate, nightlife limited.",
+   "university_city": "13-minute commute with modest beach proximity; only $215 headroom and limited walkability/nightlife."
+  },
+  "3500|45|downtown": {
+   "city_heights": "$1,252 under budget with a 9-minute commute, though beach and nightlife are limited.",
+   "clairemont": "$784 under budget with a 17-minute drive, though walkability and nightlife are limited.",
+   "downtown": "Essentially no commute with exceptional walkability and nightlife, though beach access is limited.",
+   "hillcrest": "A 6-minute commute with strong walkability and nightlife, though beach access is limited.",
+   "mira_mesa": "$456 under budget with a 23-minute drive, though walkability and nightlife are limited.",
+   "mission_valley": "A quick 8-minute drive with $332 headroom, though beach and nightlife are unavailable.",
+   "north_park": "A 6-minute drive with strong walkability and nightlife, but beach access is minimal.",
+   "ocean_beach": "Strong beach access and walkability with an 11-minute drive, though nightlife is moderate.",
+   "pacific_beach": "Perfect beach access with strong nightlife and a 14-minute drive, leaving $228 under budget.",
+   "point_loma": "Strong beach access at a 10-minute drive, though walkability and nightlife are limited.",
+   "university_city": "$215 under budget with a 19-minute drive, though walkability and nightlife are modest."
+  },
+  "3500|45|kearny_mesa": {
+   "city_heights": "Save $1,252 a month with a 13-minute commute; walkable but no beach or nightlife.",
+   "clairemont": "Moderate beach access with 10-minute commute and $784 cushion; limited walkability and nightlife.",
+   "downtown": "Excellent walkability and vibrant nightlife with 12-minute commute; beach access is moderate.",
+   "hillcrest": "Nine-minute commute with excellent walkability and nightlife; beach access is limited.",
+   "mira_mesa": "Budget $456 cushion with 15-minute commute; car-dependent with minimal nightlife or beach.",
+   "mission_valley": "Eight-minute commute with $332 remaining budget; minimal walkability, beach access, and nightlife.",
+   "north_park": "Highly walkable with strong nightlife, 11-minute drive, and $995 monthly savings; minimal beach.",
+   "ocean_beach": "Strong beach access and walkability with 15-minute commute and $646 monthly savings.",
+   "pacific_beach": "Beach and nightlife thrive with walkable streets, 14-minute commute; only $228 remains in budget.",
+   "point_loma": "Beach-focused with 17-minute commute and walkable areas; nightlife is limited.",
+   "university_city": "Moderate beach access with 12-minute commute; walkability and nightlife are limited, budget is tight."
+  }
+ }
+}
