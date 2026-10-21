@@ -42,12 +42,30 @@ function ui(data, whyByScenario) {
       : "";
     $("results").innerHTML = results.length
       ? results.map((r, i) => card(r, i, byId[r.neighborhood_id])).join("")
-      : `<li class="empty">Nothing fits. Try raising your budget above ${money(Math.min(...rows.map((r) => r.rent)))}
-         or allowing a longer commute (closest option is ${fmtMinutes(Math.min(...rows.map((r) => r.minutes)))} min to ${hub.name}).</li>`;
+      : `<li class="empty">${emptyMessage(rows, budget, maxCommute, hub)}</li>`;
   }
 
   ["budget", "commute", "hub"].forEach((id) => $(id).addEventListener("input", render));
   render();
+}
+
+// Say which limit is actually the problem instead of suggesting both fixes every time.
+function emptyMessage(rows, budget, maxCommute, hub) {
+  const by = (key) => (a, b) => a[key] - b[key];
+  const affordable = rows.filter((r) => r.rent <= budget);
+  const near = rows.filter((r) => r.minutes <= maxCommute);
+  if (!affordable.length) {
+    const c = [...rows].sort(by("rent"))[0];
+    return `Nothing rents for ${money(budget)} or less. The cheapest is ${c.name} at ${money(c.rent)}/mo.`;
+  }
+  if (!near.length) {
+    const c = [...rows].sort(by("minutes"))[0];
+    return `Nothing is within ${maxCommute} min of ${hub.name}. The closest is ${c.name} at ${fmtMinutes(c.minutes)} min.`;
+  }
+  const a = [...affordable].sort(by("minutes"))[0];
+  const c = [...near].sort(by("rent"))[0];
+  return `No neighborhood meets both limits. Within budget, the closest to ${hub.name} is ${a.name} at ${fmtMinutes(a.minutes)} min (try a max commute of ${Math.ceil(a.minutes)}+). `
+    + `Within ${maxCommute} min, the cheapest is ${c.name} at ${money(c.rent)}/mo.`;
 }
 
 function card(r, i, n) {
